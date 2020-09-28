@@ -49,6 +49,7 @@
 		"nanoid": "^2.0.0",
 		"opn": "^5.4.0",
 		"puppeteer": "^1.11.0",
+		"puppeteer-core": "^5.3.1",
 		"query-string": "^6.2.0",
 		"tempy": "^0.2.1",
 		"terminal-image": "^0.1.2",
