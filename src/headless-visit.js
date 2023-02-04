@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer-core');
 module.exports = async ({url, location = process.cwd(), type = 'png', headless = false, timeout = 2000}) => {
 	// Launch browser
 	const browser = await puppeteer.launch({
-		headless, executablePath: '/usr/bin/chromium-browser'
+		headless, executablePath: '/usr/bin/google-chrome'
 	});
 	// Open new page
 	const page = await browser.newPage();
